@@ -9,6 +9,7 @@ use std::io::{BufRead, BufReader};
 use std::path::PathBuf;
 
 #[derive(Parser)]
+#[command(version)]
 struct Args {
     /// Show log messages. Multiple -v options increase the verbosity
     #[clap(short='v', long="verbose", action=clap::ArgAction::Count)]
