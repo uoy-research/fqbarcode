@@ -17,9 +17,6 @@ struct Args {
     /// Show log messages. Multiple -v options increase the verbosity
     #[clap(short='v', long="verbose", action=clap::ArgAction::Count)]
     verbose: u8,
-    /// Sort returned barcodes by count
-    #[clap(short = 'c', long = "sort")]
-    sort_barcodes: bool,
     /// Write non-barcoded sequences to file
     #[clap(short = 'n', long = "unmatched", value_name = "FILE")]
     unmatched_path: Option<PathBuf>,
