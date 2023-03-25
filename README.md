@@ -59,8 +59,8 @@ Before installation, you'll need to install [Rust](https://www.rust-lang.org/).
 Once you have rust installed, installation is as follows:
 
 ~~~bash
-git clone https://github.com/uoy-research/fqgrep.git
-cd fqgrep
+git clone https://github.com/uoy-research/fqbarcode.git
+cd fqbarcode
 cargo install --path .
 ~~~
 
